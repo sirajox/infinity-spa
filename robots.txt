@@ -1,0 +1,15 @@
+# Robots.txt — Infinity Luxury Spa & Aesthetics
+# https://infinityluxuryspa.com
+
+User-agent: *
+Allow: /
+
+# Disallow any admin or private folders (add as needed)
+Disallow: /admin/
+Disallow: /private/
+
+# Sitemap location
+Sitemap: https://infinityluxuryspa.com/sitemap.xml
+
+# Crawl delay for polite crawling
+Crawl-delay: 1
